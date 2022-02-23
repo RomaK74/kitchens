@@ -1,0 +1,931 @@
+@media screen and (min-width: 1921px) {
+    #main {
+        background-size: 100%;
+        background-position: bottom center;
+    }
+
+    #footer {
+        background-size: 100% 100%;
+        background-position: top center;
+    }
+}
+
+
+@media screen and (max-width: 1496px) {
+
+
+    #call #person {
+        top: 150px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 1221px) {
+    #call #person img {
+        width: 80%;
+        bottom: 50px;
+    }
+}
+
+
+/*1024 - 1199*/
+@media screen and (max-width: 1199px) {
+    #main #main_content, #new_kitchen, #quote, #videos, #call, #fir, #guarantees #qualities, #footer #info, #kitchens {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+
+    #header {
+        width: 100%;
+    }
+
+    .slick-next {
+        left: 650px;
+        z-index: 100;
+        transform: scale(-1, 1);
+    }
+
+    .slick-dots {
+        left: 280px;
+        bottom: calc(50% - 180px);
+    }
+
+    #kitchens #portfolio {
+        width: 100%;
+    }
+
+    #kitchens #portfolio .kitchen .kitchen_image {
+        width: 691px;
+        height: 432px;
+    }
+
+    .icons {
+        width: 310px;
+    }
+
+    .icons .icon img {
+        margin-bottom: 6px;
+    }
+
+    #footer #info {
+        justify-content: space-evenly;
+    }
+
+    #kitchens {
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #guarantees #qualities #first_quality {
+        margin-left: 25px;
+    }
+
+    #guarantees #qualities #second_quality {
+        margin-left: 20px;
+    }
+
+    #guarantees #qualities #third_quality {
+        margin-left: 40px;
+        margin-top: 100px;
+    }
+
+    .zag .at_zag {
+        max-width: 70px;
+        margin-right: 14px;
+    }
+
+    #guarantees .zag .at_zag {
+        max-width: 70px;
+        margin-right: 14px;
+    }
+
+    #guarantees #qualities #fourth_quality {
+        margin-left: 20px;
+        margin-top: 180px;
+    }
+
+    #square {
+        height: auto;
+    }
+
+    #quote #square #gor #num_25 {
+        font-size: 170px;
+    }
+
+    #quote #square #word_gar, #quote #square #word_year {
+        font-size: 65px;
+    }
+
+    #quote #rectangle #quote_rect_down {
+        position: relative;
+        bottom: 15px;
+        margin-left: 140px;
+    }
+
+    #videos {
+        margin-top: 100px;
+    }
+
+    #videos #block_videos .video {
+        width: 450px;
+    }
+
+    .subtitle {
+        margin-left: 80px;
+    }
+
+    #kitchens .icons .icon {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #kitchens #portfolio .kitchen_description {
+        padding-left: 30px;
+    }
+
+    #kitchens #portfolio .kitchen_description .kitchen_properties {
+        margin-bottom: 40px;
+    }
+
+    @media screen and (max-width: 1145px) {
+        #kitchens #portfolio .kitchen .kitchen_image {
+            width: 645px;
+            height: 403px;
+        }
+
+        #kitchens #portfolio .kitchen {
+            align-items: center;
+        }
+
+        .slick-next {
+            left: 603px;
+        }
+
+        .slick-dots {
+            left: 255px;
+            bottom: calc(50% - 170px);
+        }
+    }
+
+    @media screen and (max-width: 1095px) {
+        #kitchens #portfolio .kitchen .kitchen_image {
+            width: 583px;
+            height: 350px;
+        }
+
+        .slick-next {
+            left: 540px;
+        }
+
+        .slick-dots {
+            left: 225px;
+            bottom: calc(50% - 148px);
+        }
+    }
+}
+
+/*768 - 1023*/
+@media screen and (max-width: 1023px) {
+    #header {
+        flex-wrap: wrap;
+    }
+
+    #main {
+        background-size: auto 100%;
+        background-position: bottom center;
+    }
+
+    #footer {
+        background-size: auto 100%;
+        background-position: top center;
+    }
+
+    #main #header .logo {
+        margin: 0 auto;
+    }
+
+    #kitchens #portfolio .kitchen .kitchen_image {
+        width: 768px;
+        height: 480px;
+    }
+
+    #kitchens #portfolio .kitchen .kitchen_image, #kitchens #portfolio .kitchen .kitchen_description {
+        margin: 0 auto;
+    }
+
+    #quote #rectangle #quote_rect_down {
+        margin-right: 10px;
+    }
+
+    #quote #rectangle #text_quote {
+        font-size: 16px;
+        margin-left: 80px;
+    }
+
+    #quote #square #gor #num_25 {
+        font-size: 150px;
+    }
+
+    #quote #square #gor #word_gar {
+        font-size: 50px;
+    }
+
+    #kitchens #portfolio .kitchen {
+        flex-wrap: wrap;
+        justify-items: center;
+    }
+
+    #new_kitchen #pluses_image #pic {
+        width: 100%;
+        text-align: center;
+    }
+
+    #new_kitchen #pluses_image #pic img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #new_kitchen #pluses_image {
+        flex-wrap: wrap;
+    }
+
+    #new_kitchen #pluses_image #pluses {
+        max-width: 100%;
+    }
+
+    #main #main_content #soc_right {
+        right: 40px;
+    }
+
+    #guarantees #qualities #second_quality {
+        margin-left: 300px;
+        margin-top: 70px;
+    }
+
+    #guarantees #qualities #third_quality {
+        margin-top: 30px;
+    }
+
+    #guarantees #qualities #fourth_quality {
+        margin-left: 300px;
+        margin-top: 80px;
+    }
+
+    #kitchens .subtitle {
+        margin-bottom: 20px;
+    }
+
+    #kitchens #portfolio .kitchen .kitchen_image {
+        width: 698px;
+        height: 419px;
+    }
+
+    .slick-next {
+        top: 255px;
+        left: calc(50% + 310px);
+    }
+
+    .slick-prev {
+        top: 255px;
+        left: calc(50% - 310px);
+    }
+
+    .slick-dots {
+        width: 100%;
+        top: 410px;
+        margin: 0 auto;
+        left: unset;
+    }
+
+    #kitchens #portfolio .kitchen_description .kitchen_num {
+        margin-top: 30px;
+    }
+
+    #quote #rectangle {
+        height: auto;
+        max-width: 900px;
+    }
+
+    #quote #square #gor {
+    }
+
+    #quote #square {
+        width: auto;
+        margin-top: -14px;
+        left: 5px;
+        z-index: 9999;
+        top: 6px;
+    }
+
+    #quote #rectangle #text_quote {
+        font-size: 18px;
+        max-width: 700px;
+        margin-left: 70px;
+        margin-top: 30px;
+        line-height: 27px;
+    }
+
+    #quote #rectangle #im_quote {
+        left: 20px;
+        top: 15px;
+    }
+
+    #quote #rectangle #im_quote img {
+        left: 10px;
+        width: 45px;
+    }
+
+    #quote #rectangle #quote_rect_down {
+        position: relative;
+        bottom: 15px;
+        max-width: 350px;
+    }
+
+    #quote #square #gor #num_25 {
+        font-size: 145px;
+    }
+
+    #quote #square #word_gar, #quote #square #word_year {
+        font-size: 55px;
+    }
+
+    #quote #square #word_year {
+        right: 40px;
+    }
+
+    #quote #rectangle #painting img {
+        width: 108px;
+        margin-right: 10px;
+    }
+
+    @media screen and (min-width: 940px) {
+        #videos .video {
+            margin: auto 20px;
+        }
+    }
+
+    #call #form_and_person #form {
+        max-width: 400px;
+        min-width: auto;
+        height: 530px;
+        margin-top: -30px;
+    }
+
+    #call #form #inputs .input_form {
+        margin: 10px auto;
+    }
+
+    #call #form_and_person #form p br {
+        display: none;
+    }
+
+    #call #person img {
+        width: 100%;
+        bottom: -100px;
+        left: 0;
+    }
+
+    #footer #info {
+        flex-wrap: wrap;
+    }
+
+    #footer #info #log_soc #soc_networks .soc_network {
+        margin-right: 10px;
+    }
+
+    #footer #info #log_soc #soc_networks {
+        margin-top: 15px;
+    }
+
+    @media screen and (min-width: 905px) {
+        #main #soc_right {
+            top: 350px;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        #quote #rectangle #quote_rect_down {
+            margin-left: 70px;
+        }
+
+        #quote #rectangle {
+            max-width: unset;
+            left: 20px;
+            padding: 20px;
+        }
+
+        #quote #rectangle #quote_rect_down {
+            padding-top: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 842px) {
+    #footer #info .info_part {
+        margin: 20px 30px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #adr {
+        order: 1;
+    }
+
+    #time_work {
+        order: 2;
+    }
+
+    #log_soc {
+        order: 3;
+    }
+
+    #contacts {
+        order: 4;
+    }
+
+    #popup_container {
+        padding: 10px;
+    }
+
+    #popup_container {
+        overflow: scroll;
+        align-items: flex-start;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    #popup_container #popup {
+        max-width: unset;
+        background-size: auto 100%;
+        background-position: center;
+    }
+
+    #popup_container #popup #im_and_form {
+        justify-content: center;
+        padding: 0;
+    }
+
+    #popup_container #popup #popup_left img {
+        padding-right: 30px;
+        display: none;
+    }
+
+    #popup_container #popup p {
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #kitchens #big_numbers .big_number {
+        margin-bottom: 30px
+    }
+}
+
+/*580 - 767 */
+@media screen and (max-width: 767px) {
+    #main #main_content #soc_right {
+        position: static;
+        display: flex;
+        max-width: 160px;
+        margin-top: 30px;
+        justify-content: space-around;
+    }
+
+    #quote {
+        flex-wrap: wrap;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    #quote #rectangle {
+        max-width: 295px;
+        margin: 0 auto;
+        border-left: 2px solid #bdb1a5;
+        border-top: none;
+        border-radius: 0 0 20px 20px;
+    }
+
+    #quote #rectangle #quote_rect_down {
+        margin: 0;
+    }
+
+    #main #header #menu {
+        min-width: 530px;
+        padding: 0;
+    }
+
+    #main #main_content #key div {
+        font-size: 20px;
+    }
+
+    #main #main_content #points {
+        margin-top: 25px;
+        display: inline-block;
+        font-size: 17px;
+    }
+
+    #guarantees #qualities {
+        padding: 70px 20px;
+    }
+
+    #guarantees #qualities .quality_number {
+        font-size: 150px;
+    }
+
+    #guarantees #qualities .quality_title {
+        font-size: 23px;
+    }
+
+    #guarantees #qualities .quality_text {
+        font-size: 14px;
+    }
+
+    #guarantees #qualities #second_quality, #guarantees #qualities #fourth_quality, #guarantees #qualities #third_quality {
+        margin-left: 25px;
+        margin-top: 55px;
+    }
+
+    #kitchens #portfolio .kitchen .kitchen_image {
+        width: 505px;
+        height: 319px;
+    }
+
+    .slick-next {
+        top: 210px;
+        left: calc(50% + 210px);
+    }
+
+    .slick-prev {
+        top: 210px;
+        left: calc(50% - 210px);
+    }
+
+    .slick-dots {
+        top: 325px;
+        margin: 0 auto;
+    }
+
+    #quote {
+        margin-top: 40px;
+    }
+
+    #quote #square #gor #num_25 {
+        font-size: 170px;
+    }
+
+    #quote #square #gor #word_gar {
+        font-size: 60px;
+    }
+
+    #quote #rectangle #text_quote {
+        margin-left: 40px;
+    }
+}
+
+/*480 - 579*/
+@media screen and (max-width: 579px) {
+    #burger {
+        display: block;
+    }
+
+    .subtitle {
+        margin-left: 30px;
+    }
+
+    #main #header #menu {
+        position: fixed;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 15;
+        width: 100%;
+        text-align: center;
+        margin: 69px 0 0 0;
+        padding: 0;
+        min-width: unset;
+        display: none;
+    }
+
+    #main #header #menu .menu_item {
+        display: block;
+        padding: 9px 0;
+        text-align: center;
+        width: auto;
+        margin: 0;
+    }
+
+    #header.menu_open {
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    #main #header .logo {
+        margin-left: 20px;
+    }
+
+    #main #header .logo img {
+        margin-top: 17px;
+    }
+
+    #main #header.menu_open #menu {
+        display: block;
+    }
+
+    #main #main_content #title h1 {
+        font-size: 45px;
+    }
+
+    #kitchens #portfolio .kitchen .kitchen_image {
+        width: 413px;
+        height: 263px;
+    }
+
+    .slick-next {
+        top: 170px;
+        left: calc(50% + 180px);
+    }
+
+    .slick-prev {
+        top: 170px;
+        left: calc(50% - 180px);
+    }
+
+    .slick-dots {
+        top: 270px;
+        margin: 0 auto;
+    }
+
+    #quote {
+        padding-left: unset;
+    }
+
+    #quote #rectangle {
+        left: 8px;
+    }
+
+    #call #form_and_person {
+        flex-wrap: wrap;
+    }
+
+    #call #form_and_person #form {
+        margin: -30px auto 40px auto;
+    }
+
+    #call #form_and_person #person {
+        height: 380px;
+        bottom: 60px;
+        top: unset;
+        margin: 0 auto;
+        left: unset;
+    }
+
+    #footer #info .info_part {
+        width: 100%;
+        text-align: center;
+    }
+
+    #info {
+        padding: 0;
+    }
+
+    #log_soc {
+        order: 0;
+    }
+}
+
+/*320 - 479*/
+@media screen and (max-width: 479px) {
+    #main #main_content #title h1 {
+        font-size: 40px;
+    }
+
+    #main #main_content #key div {
+        font-size: 16px;
+    }
+
+    #guarantees #qualities #first_quality, #guarantees #qualities #second_quality, #guarantees #qualities #fourth_quality, #guarantees #qualities #third_quality, .subtitle {
+        margin-left: 0;
+    }
+
+    .zag span {
+        font-size: 30px;
+    }
+
+    #kitchens #portfolio .kitchen .kitchen_image {
+        width: 300px;
+        height: 190px;
+        margin-left: 0;
+    }
+
+    #kitchens #portfolio .kitchen .kitchen_image img {
+        border: 8px solid white;
+    }
+
+    .slick-next {
+        top: 135px;
+        left: calc(50% + 110px);
+    }
+
+    .slick-prev {
+        top: 135px;
+        left: calc(50% - 135px);
+    }
+
+    .slick-dots {
+        top: 200px;
+        margin: 0 auto;
+    }
+
+    #kitchens #portfolio .kitchen_description {
+        padding-left: 0;
+    }
+
+    #kitchens #portfolio .kitchen_description .kitchen_num {
+        font-size: 75px;
+        margin-top: 20px;
+    }
+
+    #kitchens #portfolio .kitchen_description .kitchen_title {
+        margin: 15px 0;
+    }
+
+    #popup_container #popup #popup_right .input_form {
+        width: 260px;
+        height: 60px;
+    }
+
+    #kitchens #portfolio .kitchen_description .kitchen_properties .prop_left {
+        margin-right: 20px;
+        font-size: 17px;
+    }
+
+    #kitchens #portfolio .kitchen_description .kitchen_properties .prop_right {
+        font-size: 17px;
+    }
+
+    #big_numbers .big_number .number_image {
+        width: 290px;
+    }
+
+    #big_numbers .big_number .number_image img {
+        width: 100%;
+    }
+
+    #big_numbers {
+        max-width: 300px;
+        text-align: center;
+    }
+
+    #big_numbers .number_description {
+        font-size: 18px;
+        max-width: 300px;
+    }
+
+    #quote #square #gor #num_25 {
+        font-size: 130px;
+    }
+
+    #quote #square #gor #word_gar {
+        font-size: 42px;
+    }
+
+    #quote {
+        padding-left: 15px;
+    }
+
+    #quote #square #gor {
+        width: 280px;
+        box-sizing: border-box;
+    }
+
+    #quote #square #vert #word_year {
+        font-size: 45px;
+        top: 70px;
+        right: 45px;
+    }
+
+    #quote #rectangle {
+        max-width: 240px;
+        left: unset;
+    }
+
+    #videos #block_videos .video {
+        width: 300px;
+        height: auto;
+        padding-left: 0;
+    }
+
+    #kitchens {
+        margin-bottom: 0;
+    }
+
+    #call, #new_kitchen {
+        margin-top: 0;
+    }
+
+    #call #form_and_person {
+        height: 820px;
+    }
+
+    #call #form #inputs .input_form {
+        width: 260px;
+        height: 60px;
+    }
+
+    #call #form #inputs {
+        max-height: unset;
+    }
+
+    #call #form_and_person #form {
+        padding-left: 0;
+        padding-right: 0;
+        height: 470px;
+    }
+
+    #call #form_and_person #form p {
+        font-size: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #call #form_and_person #person {
+        top: -140px;
+    }
+
+    .orange_button {
+        width: 270px;
+        height: 60px;
+    }
+
+    #first_big {
+        max-width: 200px;
+    }
+
+    #third_big {
+        max-width: 230px;
+    }
+
+    #popup_container #popup #popup_right #reserve, #popup_container #popup #popup_right #popup_button {
+        text-align: center;
+    }
+
+    #popup_container #popup h2 {
+        font-size: 30px;
+    }
+
+    #popup_container #popup p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 339px) {
+    #quote #square #gor {
+        width: 250px;
+    }
+
+    #quote #square #gor #word_gar {
+        font-size: 39px;
+    }
+
+    #quote #square #vert #word_year {
+        right: 27px;
+    }
+
+    #quote #rectangle {
+        max-width: 210px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #kitchens #portfolio .kitchen .kitchen_image {
+        width: 267px;
+        height: 177px;
+    }
+
+    .slick-next {
+        top: 125px;
+        left: calc(50% + 100px);
+    }
+
+    .slick-prev {
+        top: 125px;
+        left: calc(50% - 120px);
+    }
+
+    .slick-dots {
+        top: 190px;
+    }
+
+    #kitchens #portfolio .kitchen_description .kitchen_properties .prop_left {
+        margin-right: 12px;
+        font-size: 15px;
+    }
+
+    #kitchens #portfolio .kitchen_description .kitchen_properties .prop_right {
+        font-size: 15px;
+    }
+
+    #kitchens .icons {
+        max-width: 290px;
+    }
+}
